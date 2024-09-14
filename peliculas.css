@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    background:rgb(231, 229, 229);
+}
+
+header{
+    width:100%;
+    padding: 30px 0 30px 0;
+    background-color:#1e2b38;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+h1 {
+  color: #fff;
+  font-size: 45px;
+}
+
+a {
+  color:#fff;
+  font-size:20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color:darkred;
+  text-decoration: underline;
+}
+
+img{
+    width: 70%;
+}
+
+.peliculas{
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.peliculas h2 {
+  padding: 10px 0;
+}
+
+.peliculas p {
+  font-size: 18px;
+  color:black;
+  padding: 10px 0;
+}
+
+
+.uno{
+  width: 200%;
+  height: 500%;
+  text-align: center;
+  background-color: darkgreen;
+  margin: 20px;
+  padding: 20px;
+
+}
+
+.dos{
+    width: 200%;
+    height: 500%px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+
+  .tres{
+    width: 200%;
+    height: 500%;
+    text-align: center;
+    background-color: darkgreen;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cuatro{
+    width: 200%;
+    height: 500%;
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  footer .redes {
+    background-color:#1e2b38;
+    color: #fff;
+    font-size: 22px;
+    padding: 40px 0;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 18px;
+    background: #ccc;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+footer .redes .amazon:hover {
+    background-color: cornflowerblue;
+}
+
+@media screen and (max-width:800px) {
+
+  header .menu {
+     text-align: center;
+     width: 100%;
+  }
+
+  h1{
+    font-size:22px;
+    text-align:right;
+  }
+
+  a {
+    font-size: 18px;
+    text-align: left;
+  }
+
+
+  .peliculas {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .uno {
+    width: 70%;
+    align-items: center;
+  }
+
+  .dos {
+    width: 70%;
+    align-items: center;
+  }
+
+  .tres {
+    width: 70%;
+    align-items: center;
+  }
+
+  .cuatro {
+    width: 70%;
+    align-items: center;
+  }
+
+  footer {
+    width: 100%;
+  }
+ }

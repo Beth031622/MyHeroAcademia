@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background:url('../myHero/imagenes/logo.png');
+    background-color:#1e2b38;
+    background-repeat: no-repeat;
+    background-position: left;
+    max-height: 300px;
+}
+
+header .menu {
+    margin: 40px 0;
+    text-align: right;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color:#fff;
+    padding-bottom: 9px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .menu a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+.main .titulo-main {
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+
+.main .contenedor-personajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+
+}
+
+.main .contenedor-personajes .fotos {
+    width: 40%;
+}
+
+.main .contenedor-personajes .fotos .thumb {
+    margin: 25px;
+    border-left: 1px solid darkred;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.nombre {
+    font-size: 25px;
+    color: darkred;
+}
+
+.informacion {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+footer .redes {
+    background-color:#1e2b38;
+    padding: 40px 0;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    background: #ccc;
+    margin: 0 20px;
+}
+
+footer .redes .face:hover {
+    background-color: rgb(51, 51, 223);
+}
+
+footer .redes .youtube:hover {
+    background-color:rgb(243, 24, 24);
+}
+
+@media screen and (max-width:800px) {
+
+    header {
+        background:url('../myHero/imagenes/logo.png');
+        width: 100%;
+    }
+
+ header .menu {
+    text-align: center;
+    background-color:#1e2b38;
+ }
+
+.main .contenedor-personajes .fotos {
+    width: 220px;
+}
+
+}

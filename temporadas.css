@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    background:rgb(231, 229, 229);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    background-color:#1e2b38;
+    color: #fff;
+}
+
+header .contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header .menu a {
+    margin: 0 20px;
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header .menu a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+.contenedor .contenedor-personajes{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(231, 229, 229);
+}
+
+.contenedor .contenedor-personajes h2{
+  padding: 10px 0;
+  
+}
+
+.contenedor .contenedor-personajes p {
+  font-size: 18px;
+}
+
+.uno{
+    width: 35%;
+    text-align: center;
+    background-color:rgb(238, 234, .5);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .dos{
+    width: 35%;
+    text-align: center;
+    background-color:rgb(245, 30, 30,.7);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .tres{
+    width: 35%;
+    text-align: center;
+    background-color:rgba(4, 14, 161, 0.5);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cuatro{
+    width: 35%;
+    text-align: center;
+    background-color:rgb(238, 234, .5);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .cinco{
+    width: 35%;
+    text-align: center;
+    background-color:rgba(240, 25, 25, 0.7);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .seis{
+    width: 35%;
+    text-align: center;
+    background-color:rgba(4, 14, 161, 0.5);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .siete{
+    width: 35%;
+    text-align: center;
+    background-color:rgb(238, 234, .5);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1e2b38;
+    font-size: 25px;
+    color:#fff;
+    padding: 40px 0;
+  }
+
+  footer a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 25px;
+    background: #ccc;
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
+footer .amazon:hover {
+    background-color: cornflowerblue;
+}
+
+
+@media screen and (max-width:800px) {
+
+  header .menu {
+     text-align: center;
+     width: 100%;
+  }
+
+  header h1{
+    font-size: 20px;
+  }
+
+  .contenedor-personajes{
+    width: 100%;
+  }
+
+  .uno {
+    width: 80%;
+    align-items: center;
+  }
+
+  .dos {
+    width: 80%;
+    align-items: center;
+  }
+
+  .tres {
+    width: 80%;
+    align-items: center;
+  }
+
+  .cuatro {
+    width: 80%;
+    align-items: center;
+  }
+
+  .cinco {
+    width: 80%;
+    align-items: center;
+  }
+
+  .seis {
+    width: 80%;
+    align-items: center;
+  }
+
+  .siete {
+    width: 80%;
+    align-items: center;
+  }
+
+  footer {
+    width: 100%;
+  }
+ 
+ }
+
+
